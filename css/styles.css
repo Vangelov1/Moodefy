@@ -1,0 +1,64 @@
+body {
+margin: 0px;
+padding: 0px;
+background-image: url(/images/bgg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+
+.main-container {
+max-height: 100vh;
+width: 100vh;
+height: 100vh;
+overflow: none;
+}
+
+.top {
+margin-top: 15px;
+}
+.bottom {
+margin-bottom: 15px;
+}
+
+.content {
+margin-left: 15px;
+display: flex;
+flex-flow: column;
+justify-content: space-between;
+height: 100%;
+}
+
+.logo2 {
+    padding-bottom: 15px;
+}
+
+.gplay {
+    padding-right: 10px;
+}
+.astore {
+    padding-left: 15px;
+}
+
+
+.title {
+font-family: 'Inter', sans-serif;
+font-size: 40px;
+width: 65%;
+font-weight: 700;
+margin: 0px;
+padding-top: 15px;
+}
+
+
+.subtitle {
+font-family: 'Inter', sans-serif;
+color: #5F5D5D;
+font-size: 18px;
+}
+
+.ending {
+font-family: 'Inter', sans-serif;
+color: #5F5D5D;
+font-size: 18px;
+width: 90%;
+}
