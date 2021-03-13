@@ -13,6 +13,19 @@ height: 100vh;
 overflow: none;
 }
 
+.get-started {
+    background: #90CAA1; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 6px;
+}
+
 .top {
 margin-top: 15px;
 }
@@ -59,6 +72,7 @@ font-size: 18px;
 .ending {
 font-family: 'Inter', sans-serif;
 color: #5F5D5D;
-font-size: 18px;
+font-size: 14px;
 width: 90%;
 }
+

@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-button {
+    padding-right: 35px;
+    margin-top: 5px;
+    color: #5F5D5D;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-buttona {
+    padding-right: 35px;
+    margin-top: 5px;
+    color: #322F2F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.nav-logo {
+    padding-right: 35px;
+}
+
+.navigation {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup {
+    padding: 11px;
+    
+    background: #90CAA1;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.login {
+    padding: 9px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #322F2F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #322F2F
+    ;
+}
