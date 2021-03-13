@@ -8,7 +8,7 @@ background-position: right;
 
 .main-container {
 max-height: 100vh;
-width: 100vh;
+width: 100%;
 height: 100vh;
 overflow: none;
 }
@@ -26,9 +26,8 @@ overflow: none;
     border-radius: 6px;
 }
 
-.top {
-margin-top: 15px;
-}
+
+
 .bottom {
 margin-bottom: 15px;
 }
@@ -39,6 +38,14 @@ display: flex;
 flex-flow: column;
 justify-content: space-between;
 height: 100%;
+}
+
+.top {
+    margin-top: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
 
 .logo2 {
@@ -56,10 +63,11 @@ height: 100%;
 .title {
 font-family: 'Inter', sans-serif;
 font-size: 40px;
-width: 65%;
+width: 33%;
 font-weight: 700;
 margin: 0px;
 padding-top: 15px;
+color: #272727;
 }
 
 
@@ -75,4 +83,47 @@ color: #5F5D5D;
 font-size: 14px;
 width: 90%;
 }
+
+.signup {
+    padding: 11px;
+    
+    background: #ffff;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #90CAA1;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.login {
+    padding: 9px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #fff
+    ;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .middle-logo {
+      padding-bottom: 15px;
+  }
+
+  .middle-logo-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
 
