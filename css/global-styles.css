@@ -4,6 +4,7 @@ padding: 0px;
 background-image: url(/images/bgg.png);
 background-repeat: no-repeat;
 background-position: right;
+background-color: #F7FAF9;
 }
 
 .main-container {
@@ -127,5 +128,10 @@ input[type=text] {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     align-items: baseline;
+  }
+
+  .item {
+      display: flex;
+      flex-flow: row;
   }
 

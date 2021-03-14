@@ -1,12 +1,19 @@
 body {
     margin: 0px;
     padding: 0px;
-    
+    background-color: #F7FAF9;
 }
 
 a {
     text-decoration: none;
 }
+
+li {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-bottom: -15px;
+}
+
 
 .nav-button {
     padding-right: 35px;
@@ -63,3 +70,24 @@ a {
     color: #322F2F
     ;
 }
+
+.item {
+    display: flex;
+    flex-flow: row;
+    gap: 15px;
+}
+
+/* Main Body Box */
+
+
+/* Main Body Box  */
+
+
+/* Side Navigation */
+
+.side-nav-items{
+    padding: 15px;
+}
+
+
+/* Side Navigation */
