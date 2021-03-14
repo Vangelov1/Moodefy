@@ -124,6 +124,8 @@ input[type=text] {
   .middle-logo-row {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    align-items: baseline;
   }
 
